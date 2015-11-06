@@ -39,7 +39,7 @@ void AForceField::Tick( float DeltaTime )
 	bool playerInField = isPlayerInForceField();
 	if (playerInField){
 		//The player is in the field, so act upon them. the value is negative because it should be pulling towards the surface
-		player->GetMovementComponent()->Velocity += force * normal;//this is n
+		player->GetMovementComponent()->Velocity += force * normal;
 	}
 
 }
